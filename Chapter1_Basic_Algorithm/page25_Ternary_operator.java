@@ -1,6 +1,6 @@
 package Chapter1_Basic_Algorithm;
 
-public class page25 {
+public class page25_Ternary_operator {
 
     public static void main(String[] args) {
         

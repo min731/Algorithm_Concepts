@@ -1,9 +1,9 @@
-package Chapter2_Basic_Datastructure;
+// package Chapter2_Basic_Datastructure;
 
 import java.util.Arrays;
 
 //배열의 요소 역순으로 바꾸기
-public class page67 {
+public class page67_Arrays_toString {
 
     static void swap(int arr[],int idx, int idx2){
 

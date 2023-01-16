@@ -2,7 +2,7 @@ package Chapter1_Basic_Algorithm;
 
 import java.util.Scanner;
 
-public class page33 {
+public class page33_do_while {
 
     public static void main(String[] args) {
         

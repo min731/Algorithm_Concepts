@@ -2,7 +2,7 @@ package Chapter1_Basic_Algorithm;
 
 import java.util.Scanner;
 
-public class page42 {
+public class page41_print_star {
 
     public static void main(String[] args) {
         
@@ -18,12 +18,13 @@ public class page42 {
             System.out.println("한 줄의 *갯수 w 입력:");
             w = stdIn.nextInt();
         }while(w<0); // w = 1,2,3...
-
-        for (int i=0;i<n/w;i++){
-            System.out.println("*".repeat(w));
-        }
         
-        System.out.println("*".repeat(n%w));
+        for (int i=1;i<n+1;i++){
+            System.out.print("*");
+            if (((float)i%w)==0){
+                System.out.println();
+            }
+        }   
 
 
     }

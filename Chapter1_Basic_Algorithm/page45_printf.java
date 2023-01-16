@@ -1,6 +1,6 @@
 package Chapter1_Basic_Algorithm;
 
-public class page45 {
+public class page45_printf {
     
     public static void main(String[] args) {
         

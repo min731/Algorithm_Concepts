@@ -1,6 +1,8 @@
+// package Chapter2_Basic_Datastructure;
+
 import java.util.Scanner;
 
-public class page104 {
+public class page104_linear_search_sentinel {
 
     // 보초법
     // 맨끝 인덱스에 찾고자하는 요소 추가

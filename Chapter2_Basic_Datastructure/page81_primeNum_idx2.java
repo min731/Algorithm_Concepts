@@ -1,6 +1,8 @@
+// package Chapter2_Basic_Datastructure;
+
 import java.util.Arrays;
 
-public class page81 {
+public class page81_primeNum_idx2 {
 
     public static void main(String[] args) {
         

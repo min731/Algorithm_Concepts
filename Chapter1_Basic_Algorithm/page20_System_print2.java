@@ -2,7 +2,7 @@ package Chapter1_Basic_Algorithm;
 
 import java.util.Scanner;
 
-public class page20 {
+public class page20_System_print2 {
     
     static int median_3(){
 

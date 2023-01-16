@@ -3,7 +3,7 @@ package Chapter1_Basic_Algorithm; // package import 해줘야함
 import java.util.Scanner;
 
 // 3 개중 최댓값 찾기
-class page13 {
+class page13_System_print {
 
     public static void main(String[]args){
 

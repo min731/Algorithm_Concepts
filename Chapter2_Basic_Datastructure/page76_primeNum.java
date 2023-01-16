@@ -1,9 +1,9 @@
-package Chapter2_Basic_Datastructure;
+// package Chapter2_Basic_Datastructure;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class page76 {
+public class page76_primeNum {
 
     // 소수구하기
     // 나누는 횟수 줄이기

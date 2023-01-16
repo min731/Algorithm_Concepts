@@ -1,8 +1,9 @@
-package Chapter2_Basic_Datastructure;
+// package Chapter2_Basic_Datastructure;
+
 
 import java.util.Random;
 
-public class page53 {
+public class page53_basic_array {
     public static void main(String[] args) {
         
         int [] arr = new int[5];

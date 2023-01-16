@@ -1,19 +1,23 @@
+// package Chapter2_Basic_Datastructure;
+
 import java.util.Scanner;
 
-public class page100 {
+public class page100_linear_search {
 
     static int Search(int []arr,int num){
 
-        for (int i=0; i<arr.length;i++){
+        int i = 0;
+
+        while(true){
             if (arr[i]==num){
                 return i;
             }
             if (i==arr.length-1){
                 return -1;
             }
+            i++;
         }
-        
-        return 0;
+    
 
     }
 

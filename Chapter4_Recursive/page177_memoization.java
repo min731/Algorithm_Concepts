@@ -27,7 +27,7 @@ public class page177_memoization {
 
     public static void main(String[] args) {
         
-        memo = new String[5+2];
-        re
+        // memo = new String[5+2];
+        // re
     }
 }

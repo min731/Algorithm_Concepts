@@ -2,7 +2,7 @@ public class page109_binary_search2 {
 
     static int binSearch2(int [] arr,int n,int key){ // (배열,배열크기,찾고 싶은 수)
 
-        int pl = 0;   // 검색할 범위의 첫 인덱스
+        int pl = 0;   // 검색할 범위의 첫 인덱스!
         int pr = n-1; // 검색할 범위의 끝 인덱스
 
         do{

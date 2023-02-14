@@ -1,29 +1,27 @@
 public class page109_binary_search2 {
 
-    static int binSearch2(int [] arr,int n,int key){ // (배열,배열크기,찾고 싶은 수)
+    static int binSearch2(int[] arr, int n, int key) { // (배열,배열크기,찾고 싶은 수)
 
-        int pl = 0;   // 검색할 범위의 첫 인덱스!
-        int pr = n-1; // 검색할 범위의 끝 인덱스
+        int pl = 0; // 검색할 범위의 첫 인덱스!
+        int pr = n - 1; // 검색할 범위의 끝 인덱스
 
-        do{
-            int pc = (pl+pr) /2;
-            if (arr[pc]==key){
+        do {
+            int pc = (pl + pr) / 2;
+            if (arr[pc] == key) {
                 return pc;
+            } else if (arr[pc] < key) {
+                pl = pc + 1;
+            } else { // (key < arr[pc])
+                pr = pc - 1;
             }
-            else if (arr[pc] < key){
-                pl = pc +1;
-            }
-            else{ // (key < arr[pc])
-                pr = pc-1;
-            }
-        }while(pl<=pr);
+        } while (pl <= pr);
 
         return -1;
     }
 
     public static void main(String[] args) {
-        
-        int arr [] = {15,27,39,77,92,108,121};
+
+        int arr[] = { 15, 27, 39, 77, 92, 108, 121 };
 
         System.out.println(binSearch2(arr, arr.length, 15));
         System.out.println(binSearch2(arr, arr.length, 27));
@@ -35,5 +33,5 @@ public class page109_binary_search2 {
         System.out.println(binSearch2(arr, arr.length, 99));
 
     }
-    
+
 }

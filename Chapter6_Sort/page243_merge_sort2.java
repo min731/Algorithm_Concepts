@@ -10,7 +10,7 @@ public class page243_merge_sort2 {
 
         // 작업용 배열 buff
         buff = new int[n];
-
+ㅊㅎ
         merge_sort2(a, 0, n - 1);
 
         buff = null;
@@ -31,6 +31,7 @@ public class page243_merge_sort2 {
             System.out.println(right);
 
             merge_sort2(a, left, center);
+            System.out.println("a :" + Arrays.toString(a));
 
             System.out.println("---------1----------");
             System.out.print(left + ",");
@@ -38,6 +39,7 @@ public class page243_merge_sort2 {
             System.out.println(right);
 
             merge_sort2(a, center + 1, right);
+            System.out.println("a :" + Arrays.toString(a));
 
             System.out.println("---------2----------");
             System.out.print(left + ",");
@@ -58,8 +60,8 @@ public class page243_merge_sort2 {
             while (j < p) {
                 a[k++] = buff[j++];
             }
-
             System.out.println("a :" + Arrays.toString(a));
+
         }
 
     }

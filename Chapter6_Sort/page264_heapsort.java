@@ -47,7 +47,7 @@ class page264_heapsort{
             downHeap(arr, i, n-1);
         }
         
-        // 2. heap 정렬하기 
+        // 2. 최대인덱스 부터 정렬, heap 만들기 반복
         for (int i = n-1; i>0;i--){
             // 최소 인덱스 <-> 최대 인덱스
             swap(arr, 0, i);

@@ -10,7 +10,7 @@ public class page243_merge_sort2 {
 
         // 작업용 배열 buff
         buff = new int[n];
-ㅊㅎ
+
         merge_sort2(a, 0, n - 1);
 
         buff = null;

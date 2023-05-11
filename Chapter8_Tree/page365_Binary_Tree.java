@@ -18,7 +18,7 @@ class Node {
     }
 }
 
-public class page350_Binary_Tree {
+public class page365_Binary_Tree {
     
     public Node root;
 
@@ -119,7 +119,7 @@ public class page350_Binary_Tree {
 
         int N = Integer.parseInt(br.readLine());
         
-        page350_Binary_Tree tree = new page350_Binary_Tree();
+        page365_Binary_Tree tree = new page365_Binary_Tree();
 
         for (int i=0; i<N; i++){
 
